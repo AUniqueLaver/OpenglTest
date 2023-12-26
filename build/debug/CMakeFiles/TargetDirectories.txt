@@ -1,0 +1,13 @@
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles/edit_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles/rebuild_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/CMakeFiles/edit_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/CMakeFiles/rebuild_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/App/CMakeFiles/3test.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/App/CMakeFiles/Copies_Directory.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/App/CMakeFiles/edit_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/App/CMakeFiles/rebuild_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core/CMakeFiles/Core.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core/CMakeFiles/edit_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core/CMakeFiles/rebuild_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/CMakeFiles/edit_cache.dir
+/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/CMakeFiles/rebuild_cache.dir
