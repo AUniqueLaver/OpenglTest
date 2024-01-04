@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Core.dir/MockClass.cpp.o"
-  "CMakeFiles/Core.dir/MockClass.cpp.o.d"
+  "CMakeFiles/Core.dir/Render/Scene.cpp.o"
+  "CMakeFiles/Core.dir/Render/Scene.cpp.o.d"
+  "CMakeFiles/Core.dir/Window/Window.cpp.o"
+  "CMakeFiles/Core.dir/Window/Window.cpp.o.d"
   "libCore.a"
   "libCore.pdb"
 )

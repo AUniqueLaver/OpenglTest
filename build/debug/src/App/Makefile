@@ -85,6 +85,51 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Only default component available"
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	/opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/App//CMakeFiles/progress.marks"
@@ -130,20 +175,6 @@ src/App/CMakeFiles/3test.dir/rule:
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/App/CMakeFiles/3test.dir/build.make src/App/CMakeFiles/3test.dir/build
 .PHONY : 3test/fast
 
-# Convenience name for target.
-src/App/CMakeFiles/Copies_Directory.dir/rule:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/App/CMakeFiles/Copies_Directory.dir/rule
-.PHONY : src/App/CMakeFiles/Copies_Directory.dir/rule
-
-# Convenience name for target.
-Copies_Directory: src/App/CMakeFiles/Copies_Directory.dir/rule
-.PHONY : Copies_Directory
-
-# fast build rule for target.
-Copies_Directory/fast:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/App/CMakeFiles/Copies_Directory.dir/build.make src/App/CMakeFiles/Copies_Directory.dir/build
-.PHONY : Copies_Directory/fast
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -175,8 +206,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... edit_cache"
+	@echo "... install"
+	@echo "... install/local"
+	@echo "... install/strip"
+	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... Copies_Directory"
 	@echo "... 3test"
 	@echo "... main.o"
 	@echo "... main.i"

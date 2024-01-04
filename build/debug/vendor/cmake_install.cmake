@@ -37,3 +37,18 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/Library/Developer/CommandLineTools/usr/bin/objdump")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/glad/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/glm/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/sdl3/cmake_install.cmake")
+endif()
+

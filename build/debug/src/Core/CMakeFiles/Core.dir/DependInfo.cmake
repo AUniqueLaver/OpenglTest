@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/MockClass.cpp" "src/Core/CMakeFiles/Core.dir/MockClass.cpp.o" "gcc" "src/Core/CMakeFiles/Core.dir/MockClass.cpp.o.d"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/Scene.cpp" "src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o" "gcc" "src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o.d"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Window/Window.cpp" "src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o" "gcc" "src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

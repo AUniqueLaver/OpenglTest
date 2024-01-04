@@ -1,16 +1,21 @@
-#include "../Core/MockClass.hpp"
+#include "Render/Scene.hpp"
+#include "Extra/SceneRunner.hpp"
 
 #include <fstream>
 #include <iostream>
+#include <functional>
+#include <unordered_map>
+#include <unordered_set>
+#include <algorithm>
+#include <numeric>
+#include <utility>
+#include <future>
+#include <mutex>
+#include <thread>
 
 int main()
 {
-   // std::ifstream ifs{"ProgramData.txt"};
-   //    if(!ifs) error("Couldn't open file");
-  
-    // double x = 1.3;
-    //  unsigned int y = 1;
-    //    y = x;
-    // std::cout << x << std::endl;
-    double x = 13; 
+    Runner runner("Scene1");
+     std::unique_ptr<Scene> scene = std::make_unique<Scene>();
+       runner.run(std::move(scene));
 }

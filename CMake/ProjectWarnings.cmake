@@ -1,6 +1,8 @@
 function(set_project_warnings project_name)
   option(WARNING_AS_ERRORS "Treat warnings as errors" TRUE)
-   message("Treating warnings as errors")
+   if(WARNING_AS_ERRORS)
+    message(STATUS "Treating warnings as errors")
+   endif()
 
    set(CLANG_WARNINGS
        -Wall
@@ -14,7 +16,7 @@ function(set_project_warnings project_name)
        -Wconversion
        -Wsign-conversion
        -Wnull-dereference
-       -Wformat=2
+       # -Wformat=2
        )
 
   if(WARNING_AS_ERRORS)

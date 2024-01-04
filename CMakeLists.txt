@@ -9,4 +9,4 @@ include(Cmake/ProjectWarnings.cmake)
 set_project_warnings(Project_Warnings)
 
 add_subdirectory(src)
-add_subdirectory(vendor)
+add_subdirectory(vendor) 
