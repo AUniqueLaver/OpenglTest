@@ -34,7 +34,7 @@ class Runner
               SDL_Quit();
            }
 
-    void main_loop(std::unique_ptr<Window> swindow, std::unique_ptr<Scene> scene)
+    void main_loop(std::unique_ptr<Window> swindow, std::unique_ptr<SceneI> scene)
        {
       scene->setDiemensions(fbw, fbh);
         scene->initScene();
@@ -78,7 +78,7 @@ class Runner
              }
             }
 
-    void run(std::unique_ptr<Scene> scene)
+    void run(std::unique_ptr<SceneI> scene)
        {
           main_loop(std::move(window), std::move(scene));
        }
