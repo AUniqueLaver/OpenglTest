@@ -5,6 +5,11 @@ file(GLOB CURRENT_DIR
      *.hpp
     )
 
+file(GLOB_RECURSE CORE
+    Core/*.cpp
+    Core/*.hpp
+    )
+
 file(GLOB_RECURSE RENDER
     Render/*.cpp
     Render/*.hpp
@@ -20,8 +25,19 @@ file(GLOB_RECURSE WINDOW
     Window/*.hpp
     )
 
+file(GLOB_RECURSE CORE_SINKS 
+    Core/Sinks/*.cpp
+    Core/Sinks/*.hpp
+    )
+
+file(GLOB_RECURSE CORE_DETAILS
+    Core/Details/*.cpp
+    Core/Details/*.hpp
+    )
+
 add_library(${NAME} 
             ${CURRENT_DIR} ${RENDER} ${EXTRA} ${WINDOW}
+            ${CORE} ${CORE_SINKS} ${CORE_DETAILS}
            )
 
 add_custom_target(Copies_Directory ALL

@@ -946,6 +946,12 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Logger.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Details/NullMutex.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/LogMsg.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/BackTracer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/filesystem \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/copy_options.h \

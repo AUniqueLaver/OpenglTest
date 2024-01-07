@@ -16,4 +16,4 @@ layout (location=0) out vec3 Color;
 
 Note: When glsl says "version not found", it means it can't find video subsystem and
 telling us the first line of the file. Not an actual error message indicating not finding
-the version.
+he version.

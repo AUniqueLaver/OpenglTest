@@ -774,6 +774,12 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/BackTracer.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Details/NullMutex.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/LogMsg.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Logger.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Extra/SceneInterface.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Extra/SceneRunner.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Scene.hpp \
@@ -1161,13 +1167,9 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int3.hpp:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int2.hpp:
+
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_int_sized.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/voidify.h:
-
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_uint_sized.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
 
@@ -1194,6 +1196,10 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Window/Window.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/any_of.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Logger.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h:
 
@@ -1263,6 +1269,12 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_ino_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_fill.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/LogMsg.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_in_addr_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/default_sentinel.h:
@@ -1322,8 +1334,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_u_int.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h:
-
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int2.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
 
@@ -1633,7 +1643,11 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double4x3.hpp:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Common.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_nothrow_convertible.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_move_constructible.h:
 
@@ -1809,6 +1823,12 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/as_const.h:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_uint_sized.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/voidify.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/uses_allocator.h:
@@ -1956,6 +1976,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_is_permutation.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/ranges_operations.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/BackTracer.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/access.h:
 
@@ -2351,6 +2373,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_shuffle.h:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Details/NullMutex.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/count_if.h:
@@ -2418,10 +2442,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/compare:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_replace_copy.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_fill.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove_copy_if.h:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/integer.hpp:
 
@@ -2840,8 +2860,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_suseconds_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/any_of.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/xlocale/_time.h:
 

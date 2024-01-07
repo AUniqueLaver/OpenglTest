@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/alexchan_1/Project Files/C++/C++ projects/3test/CMakeLists.txt"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/Cmake/ProjectSettings.cmake"
   "/Users/alexchan_1/Project Files/C++/C++ projects/3test/Cmake/ProjectWarnings.cmake"
   "CMakeFiles/3.27.7/CMakeCCompiler.cmake"
   "CMakeFiles/3.27.7/CMakeCXXCompiler.cmake"

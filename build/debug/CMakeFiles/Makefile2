@@ -248,7 +248,7 @@ src/Core/CMakeFiles/Core.dir/all: vendor/glad/CMakeFiles/glad.dir/all
 src/Core/CMakeFiles/Core.dir/all: vendor/sdl3/CMakeFiles/SDL3-shared.dir/all
 	$(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/depend
 	$(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=2 "Built target Core"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=2,3,4,5 "Built target Core"
 .PHONY : src/Core/CMakeFiles/Core.dir/all
 
 # Build rule for subdir invocation for target.
@@ -352,12 +352,12 @@ vendor/glm/CMakeFiles/uninstall.dir/clean:
 vendor/sdl3/CMakeFiles/SDL3-shared.dir/all:
 	$(MAKE) $(MAKESILENT) -f vendor/sdl3/CMakeFiles/SDL3-shared.dir/build.make vendor/sdl3/CMakeFiles/SDL3-shared.dir/depend
 	$(MAKE) $(MAKESILENT) -f vendor/sdl3/CMakeFiles/SDL3-shared.dir/build.make vendor/sdl3/CMakeFiles/SDL3-shared.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target SDL3-shared"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93 "Built target SDL3-shared"
 .PHONY : vendor/sdl3/CMakeFiles/SDL3-shared.dir/all
 
 # Build rule for subdir invocation for target.
 vendor/sdl3/CMakeFiles/SDL3-shared.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" 91
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" 88
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/sdl3/CMakeFiles/SDL3-shared.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" 0
 .PHONY : vendor/sdl3/CMakeFiles/SDL3-shared.dir/rule

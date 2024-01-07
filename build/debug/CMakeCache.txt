@@ -310,18 +310,20 @@ COREHAPTICS:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/Sys
 //Path to a library.
 COREMEDIA:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/CoreMedia.framework
 
+//Disable logging
+DEACTIVATE_LOGGING:BOOL=OFF
+
+//No help, variable specified on the command line.
+DEACTIVE_LOGGING:UNINITIALIZED=FALSE
+
+//Enable debugging or logging
+DEBUG:BOOL=ON
+
 //Path to a library.
 GAMECONTROLLER:FILEPATH=/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/GameController.framework
 
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=/opt/homebrew/bin/git
-
-//Directory containing glad generator CMakeLists.txt. Must be absolute.
-GLAD_CMAKE_DIR:STRING=/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/glad/cmake
-
-//Directory containing glad sources (python modules), used as working
-// directory. Must be absolute.
-GLAD_SOURCES_DIR:STRING=/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/glad/cmake/../
 
 //Value Computed by CMake
 Glad_BINARY_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/glad
@@ -346,9 +348,6 @@ PKG_CONFIG_EXECUTABLE:FILEPATH=PKG_CONFIG_EXECUTABLE-NOTFOUND
 
 //Value Computed by CMake
 SDL3_BINARY_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/sdl3
-
-//The directory containing a CMake configuration file for SDL3.
-SDL3_DIR:PATH=/usr/local/lib/cmake/SDL3
 
 //Value Computed by CMake
 SDL3_IS_TOP_LEVEL:STATIC=OFF
@@ -471,9 +470,6 @@ SDL_KMSDRM:BOOL=OFF
 //Use the system C library
 SDL_LIBC:BOOL=ON
 
-//Prefer iconv() from libiconv, if available, over libc version
-SDL_LIBICONV:BOOL=OFF
-
 //Enable libudev support
 SDL_LIBUDEV:BOOL=ON
 
@@ -595,15 +591,6 @@ SDL_XINPUT:BOOL=OFF
 WARNING_AS_ERRORS:BOOL=TRUE
 
 //Value Computed by CMake
-glad_BINARY_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/glad
-
-//Value Computed by CMake
-glad_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-glad_SOURCE_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/glad
-
-//Value Computed by CMake
 glm_BINARY_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/glm
 
 //Value Computed by CMake
@@ -611,15 +598,6 @@ glm_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 glm_SOURCE_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/glm
-
-//Value Computed by CMake
-myGlad_BINARY_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/glad
-
-//Value Computed by CMake
-myGlad_IS_TOP_LEVEL:STATIC=OFF
-
-//Value Computed by CMake
-myGlad_SOURCE_DIR:STATIC=/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/glad
 
 
 ########################
@@ -831,8 +809,6 @@ COMPILER_SUPPORTS_WNO_ERROR_DEPRECATED_DECLARATIONS:INTERNAL=1
 FIND_PACKAGE_MESSAGE_DETAILS_Iconv:INTERNAL=[/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/lib/libiconv.tbd][/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include][v1.11()]
 //ADVANCED property for variable: GIT_EXECUTABLE
 GIT_EXECUTABLE-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: GLAD_CMAKE_DIR
-GLAD_CMAKE_DIR-ADVANCED:INTERNAL=1
 //Have include alloca.h
 HAVE_ALLOCA_H:INTERNAL=1
 //Have symbol dlopen
@@ -899,10 +875,6 @@ HAVE_SIGACTION:INTERNAL=1
 HAVE_SYSCONF:INTERNAL=1
 //Have symbol sysctlbyname
 HAVE_SYSCTLBYNAME:INTERNAL=1
-//Test ICONV_IN_LIBC
-ICONV_IN_LIBC:INTERNAL=
-//Test ICONV_IN_LIBICONV
-ICONV_IN_LIBICONV:INTERNAL=1
 //ADVANCED property for variable: Iconv_INCLUDE_DIR
 Iconv_INCLUDE_DIR-ADVANCED:INTERNAL=1
 //Test Iconv_IS_BUILT_IN
@@ -1091,8 +1063,6 @@ LIBC_HAS_STRNCASECMP:INTERNAL=1
 LIBC_HAS_STRNCMP:INTERNAL=1
 //Have symbol strnlen
 LIBC_HAS_STRNLEN:INTERNAL=1
-//Have symbol strnstr
-LIBC_HAS_STRNSTR:INTERNAL=1
 //Have symbol strrchr
 LIBC_HAS_STRRCHR:INTERNAL=1
 //Have symbol strstr

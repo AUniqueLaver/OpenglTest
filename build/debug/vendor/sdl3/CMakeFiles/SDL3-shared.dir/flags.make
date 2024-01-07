@@ -3,7 +3,7 @@
 
 # compile C with /Library/Developer/CommandLineTools/usr/bin/cc
 # compile OBJC with /Library/Developer/CommandLineTools/usr/bin/clang
-C_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=0 -DUSING_GENERATED_CONFIG_H
+C_DEFINES = -DDEBUG -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=0 -DUSING_GENERATED_CONFIG_H
 
 C_INCLUDES = -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/sdl3/include-config-debug" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/sdl3/include" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/include" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/src" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/include/SDL3"
 
@@ -11,7 +11,7 @@ C_FLAGSarm64 = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs
 
 C_FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk -fPIC -fvisibility=hidden -Wall -Wundef -fno-strict-aliasing -Wdocumentation -Wdocumentation-unknown-command -fcomment-block-commands=threadsafety -Wshadow -Wno-unused-local-typedefs -fcolor-diagnostics "-idirafter/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/src/video/khronos" -Wno-error=deprecated-declarations -D_THREAD_SAFE -fobjc-arc
 
-OBJC_DEFINES = -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=0 -DUSING_GENERATED_CONFIG_H
+OBJC_DEFINES = -DDEBUG -DDLL_EXPORT -DSDL_BUILD_MAJOR_VERSION=3 -DSDL_BUILD_MICRO_VERSION=0 -DSDL_BUILD_MINOR_VERSION=0 -DUSING_GENERATED_CONFIG_H
 
 OBJC_INCLUDES = -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/sdl3/include-config-debug" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/sdl3/include" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/include" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/src" -I"/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/include/SDL3"
 
