@@ -52,3 +52,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/sdl3/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/uLog/cmake_install.cmake")
+endif()
+

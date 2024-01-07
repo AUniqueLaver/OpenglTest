@@ -1,6 +1,6 @@
-#include "Render/Scene.hpp"
-#include "Extra/SceneRunner.hpp"
-#include "Core/Log.hpp"
+// #include "Render/Scene.hpp"
+// #include "Extra/SceneRunner.hpp"
+// #include "Core/Log.hpp"
 
 #include <fstream>
 #include <iostream>
@@ -22,11 +22,11 @@ int main()
      
    // LOG_TRACE("Log message 1");
   
-   LOG_INFO("Log message info");
-   LOG_WARN("Log message [warn]");
-   LOG_ERROR("Log message [error]");
-   LOG_FATAL("Log message [fatal]");
-
-   LOG_TRACE("%s rea fd a2");
-   LOG_DEBUG("Log Doop doop 3");
+   // LOG_INFO("Log message info");
+   // LOG_WARN("Log message [warn]");
+   // LOG_ERROR("Log message [error]");
+   // LOG_FATAL("Log message [fatal]");
+   //
+   // LOG_TRACE("%s rea fd a2");
+   // LOG_DEBUG("Log Doop doop 3");
 }

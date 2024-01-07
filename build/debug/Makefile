@@ -252,6 +252,32 @@ SDL3_test/fast:
 	$(MAKE) $(MAKESILENT) -f vendor/sdl3/CMakeFiles/SDL3_test.dir/build.make vendor/sdl3/CMakeFiles/SDL3_test.dir/build
 .PHONY : SDL3_test/fast
 
+#=============================================================================
+# Target rules for targets named TestLog
+
+# Build rule for target.
+TestLog: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestLog
+.PHONY : TestLog
+
+# fast build rule for target.
+TestLog/fast:
+	$(MAKE) $(MAKESILENT) -f vendor/uLog/src/TestApp/CMakeFiles/TestLog.dir/build.make vendor/uLog/src/TestApp/CMakeFiles/TestLog.dir/build
+.PHONY : TestLog/fast
+
+#=============================================================================
+# Target rules for targets named ULogger
+
+# Build rule for target.
+ULogger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ULogger
+.PHONY : ULogger
+
+# fast build rule for target.
+ULogger/fast:
+	$(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build
+.PHONY : ULogger/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -270,6 +296,8 @@ help:
 	@echo "... Core"
 	@echo "... SDL3-shared"
 	@echo "... SDL3_test"
+	@echo "... TestLog"
+	@echo "... ULogger"
 	@echo "... glad"
 .PHONY : help
 

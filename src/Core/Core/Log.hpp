@@ -44,6 +44,9 @@ class Log
 
 #else
 
+#define LOG_TRACE(...)
+#define LOG_DEBUG(...)
+
 #define LOG_INFO(...)
 #define LOG_WARN(...)
 #define LOG_ERROR(...)

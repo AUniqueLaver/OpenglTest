@@ -36,6 +36,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/cmake/sdltargets.cmake"
   "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/include/build_config/SDL_build_config.h.cmake"
   "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/sdl3/include/build_config/SDL_revision.h.cmake"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/CMakeLists.txt"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/Cmake/ProjectSettings.cmake"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/Cmake/ProjectWarnings.cmake"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/src/CMakeLists.txt"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/src/TestApp/CMakeLists.txt"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/src/ULogger/CMakeLists.txt"
+  "/Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/vendor/CMakeLists.txt"
   "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCInformation.cmake"
   "/opt/homebrew/Cellar/cmake/3.27.7/share/cmake/Modules/CMakeCXXInformation.cmake"
@@ -118,6 +125,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "vendor/sdl3/SDL3ConfigVersion.cmake"
   "vendor/sdl3/include-config-debug/build_config/SDL_build_config.h"
   "vendor/sdl3/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/uLog/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/uLog/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/uLog/src/TestApp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/uLog/src/ULogger/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "vendor/uLog/vendor/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -129,4 +141,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "vendor/glm/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "vendor/sdl3/CMakeFiles/SDL3-shared.dir/DependInfo.cmake"
   "vendor/sdl3/CMakeFiles/SDL3_test.dir/DependInfo.cmake"
+  "vendor/uLog/src/TestApp/CMakeFiles/TestLog.dir/DependInfo.cmake"
+  "vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/DependInfo.cmake"
   )
