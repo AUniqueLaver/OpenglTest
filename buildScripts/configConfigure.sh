@@ -1,0 +1,13 @@
+#! /bin/bash
+
+ENABLE_VARS="no_log|DEACTIVATE_LOGGING|TRUE"
+ENABLE_DEACTIVATE_LOGGING_DOC="Enable deactivate logging"
+
+ENABLE_VARS="${ENABLE_VARS} warning_as_errors|WARNING_AS_ERRORS|TRUE"
+ENABLE_WARNING_AS_ERRORS_DOC="Enable warning as errors"
+
+DISABLE_VARS="no_log|DEACTIVATE_LOGGING|FALSE"
+DISABLE_DEACTIVATE_LOGGING_DOC="Disable deactivate logging"
+
+DISABLE_VARS="${DISABLE_VARS} warning_as_errors|WARNING_AS_ERRORS|FALSE"
+DISABLE_WARNING_AS_ERRORS_DOC="Disable warning as errors"
