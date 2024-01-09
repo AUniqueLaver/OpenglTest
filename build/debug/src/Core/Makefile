@@ -189,30 +189,6 @@ Copies_Directory/fast:
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Copies_Directory.dir/build.make src/Core/CMakeFiles/Copies_Directory.dir/build
 .PHONY : Copies_Directory/fast
 
-Core/Formatter/PatternFormatter.o: Core/Formatter/PatternFormatter.cpp.o
-.PHONY : Core/Formatter/PatternFormatter.o
-
-# target to build an object file
-Core/Formatter/PatternFormatter.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Formatter/PatternFormatter.cpp.o
-.PHONY : Core/Formatter/PatternFormatter.cpp.o
-
-Core/Formatter/PatternFormatter.i: Core/Formatter/PatternFormatter.cpp.i
-.PHONY : Core/Formatter/PatternFormatter.i
-
-# target to preprocess a source file
-Core/Formatter/PatternFormatter.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Formatter/PatternFormatter.cpp.i
-.PHONY : Core/Formatter/PatternFormatter.cpp.i
-
-Core/Formatter/PatternFormatter.s: Core/Formatter/PatternFormatter.cpp.s
-.PHONY : Core/Formatter/PatternFormatter.s
-
-# target to generate assembly for a file
-Core/Formatter/PatternFormatter.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Formatter/PatternFormatter.cpp.s
-.PHONY : Core/Formatter/PatternFormatter.cpp.s
-
 Core/Log.o: Core/Log.cpp.o
 .PHONY : Core/Log.o
 
@@ -236,126 +212,6 @@ Core/Log.s: Core/Log.cpp.s
 Core/Log.cpp.s:
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Log.cpp.s
 .PHONY : Core/Log.cpp.s
-
-Core/LogMsg.o: Core/LogMsg.cpp.o
-.PHONY : Core/LogMsg.o
-
-# target to build an object file
-Core/LogMsg.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/LogMsg.cpp.o
-.PHONY : Core/LogMsg.cpp.o
-
-Core/LogMsg.i: Core/LogMsg.cpp.i
-.PHONY : Core/LogMsg.i
-
-# target to preprocess a source file
-Core/LogMsg.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/LogMsg.cpp.i
-.PHONY : Core/LogMsg.cpp.i
-
-Core/LogMsg.s: Core/LogMsg.cpp.s
-.PHONY : Core/LogMsg.s
-
-# target to generate assembly for a file
-Core/LogMsg.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/LogMsg.cpp.s
-.PHONY : Core/LogMsg.cpp.s
-
-Core/Logger.o: Core/Logger.cpp.o
-.PHONY : Core/Logger.o
-
-# target to build an object file
-Core/Logger.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Logger.cpp.o
-.PHONY : Core/Logger.cpp.o
-
-Core/Logger.i: Core/Logger.cpp.i
-.PHONY : Core/Logger.i
-
-# target to preprocess a source file
-Core/Logger.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Logger.cpp.i
-.PHONY : Core/Logger.cpp.i
-
-Core/Logger.s: Core/Logger.cpp.s
-.PHONY : Core/Logger.s
-
-# target to generate assembly for a file
-Core/Logger.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Logger.cpp.s
-.PHONY : Core/Logger.cpp.s
-
-Core/Sinks/Sinks.o: Core/Sinks/Sinks.cpp.o
-.PHONY : Core/Sinks/Sinks.o
-
-# target to build an object file
-Core/Sinks/Sinks.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Sinks/Sinks.cpp.o
-.PHONY : Core/Sinks/Sinks.cpp.o
-
-Core/Sinks/Sinks.i: Core/Sinks/Sinks.cpp.i
-.PHONY : Core/Sinks/Sinks.i
-
-# target to preprocess a source file
-Core/Sinks/Sinks.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Sinks/Sinks.cpp.i
-.PHONY : Core/Sinks/Sinks.cpp.i
-
-Core/Sinks/Sinks.s: Core/Sinks/Sinks.cpp.s
-.PHONY : Core/Sinks/Sinks.s
-
-# target to generate assembly for a file
-Core/Sinks/Sinks.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Sinks/Sinks.cpp.s
-.PHONY : Core/Sinks/Sinks.cpp.s
-
-Core/Sinks/StdoutSink.o: Core/Sinks/StdoutSink.cpp.o
-.PHONY : Core/Sinks/StdoutSink.o
-
-# target to build an object file
-Core/Sinks/StdoutSink.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Sinks/StdoutSink.cpp.o
-.PHONY : Core/Sinks/StdoutSink.cpp.o
-
-Core/Sinks/StdoutSink.i: Core/Sinks/StdoutSink.cpp.i
-.PHONY : Core/Sinks/StdoutSink.i
-
-# target to preprocess a source file
-Core/Sinks/StdoutSink.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Sinks/StdoutSink.cpp.i
-.PHONY : Core/Sinks/StdoutSink.cpp.i
-
-Core/Sinks/StdoutSink.s: Core/Sinks/StdoutSink.cpp.s
-.PHONY : Core/Sinks/StdoutSink.s
-
-# target to generate assembly for a file
-Core/Sinks/StdoutSink.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Sinks/StdoutSink.cpp.s
-.PHONY : Core/Sinks/StdoutSink.cpp.s
-
-Core/os.o: Core/os.cpp.o
-.PHONY : Core/os.o
-
-# target to build an object file
-Core/os.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/os.cpp.o
-.PHONY : Core/os.cpp.o
-
-Core/os.i: Core/os.cpp.i
-.PHONY : Core/os.i
-
-# target to preprocess a source file
-Core/os.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/os.cpp.i
-.PHONY : Core/os.cpp.i
-
-Core/os.s: Core/os.cpp.s
-.PHONY : Core/os.s
-
-# target to generate assembly for a file
-Core/os.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/os.cpp.s
-.PHONY : Core/os.cpp.s
 
 Render/Scene.o: Render/Scene.cpp.o
 .PHONY : Render/Scene.o
@@ -419,27 +275,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... Copies_Directory"
 	@echo "... Core"
-	@echo "... Core/Formatter/PatternFormatter.o"
-	@echo "... Core/Formatter/PatternFormatter.i"
-	@echo "... Core/Formatter/PatternFormatter.s"
 	@echo "... Core/Log.o"
 	@echo "... Core/Log.i"
 	@echo "... Core/Log.s"
-	@echo "... Core/LogMsg.o"
-	@echo "... Core/LogMsg.i"
-	@echo "... Core/LogMsg.s"
-	@echo "... Core/Logger.o"
-	@echo "... Core/Logger.i"
-	@echo "... Core/Logger.s"
-	@echo "... Core/Sinks/Sinks.o"
-	@echo "... Core/Sinks/Sinks.i"
-	@echo "... Core/Sinks/Sinks.s"
-	@echo "... Core/Sinks/StdoutSink.o"
-	@echo "... Core/Sinks/StdoutSink.i"
-	@echo "... Core/Sinks/StdoutSink.s"
-	@echo "... Core/os.o"
-	@echo "... Core/os.i"
-	@echo "... Core/os.s"
 	@echo "... Render/Scene.o"
 	@echo "... Render/Scene.i"
 	@echo "... Render/Scene.s"

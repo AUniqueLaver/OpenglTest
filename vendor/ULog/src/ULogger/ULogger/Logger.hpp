@@ -1,7 +1,7 @@
 #pragma once
 
-#include "ULogger/Common.hpp"
-#include "ULogger/LogMsg.hpp"
+#include "uLogger/Common.hpp"
+#include "uLogger/LogMsg.hpp"
 #include "Details/BackTracer.hpp"
 
 #include <iostream>

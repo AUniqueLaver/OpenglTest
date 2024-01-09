@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/uLog/src/TestApp/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/uLog/src/ULogger/cmake_install.cmake")
+  include("/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/uLog/src/uLogger/cmake_install.cmake")
 endif()
 

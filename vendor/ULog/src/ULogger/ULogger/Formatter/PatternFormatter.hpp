@@ -1,8 +1,8 @@
 #pragma once
 
-#include "ULogger/Formatter/Formatter.hpp"
-#include "ULogger/Details/FmtHelper.hpp"
-#include "ULogger/os.hpp"
+#include "uLogger/Formatter/Formatter.hpp"
+#include "uLogger/Details/FmtHelper.hpp"
+#include "uLogger/os.hpp"
 
 #include <iostream>
 

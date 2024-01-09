@@ -253,30 +253,17 @@ SDL3_test/fast:
 .PHONY : SDL3_test/fast
 
 #=============================================================================
-# Target rules for targets named TestLog
+# Target rules for targets named uLogger
 
 # Build rule for target.
-TestLog: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 TestLog
-.PHONY : TestLog
+uLogger: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 uLogger
+.PHONY : uLogger
 
 # fast build rule for target.
-TestLog/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/uLog/src/TestApp/CMakeFiles/TestLog.dir/build.make vendor/uLog/src/TestApp/CMakeFiles/TestLog.dir/build
-.PHONY : TestLog/fast
-
-#=============================================================================
-# Target rules for targets named ULogger
-
-# Build rule for target.
-ULogger: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ULogger
-.PHONY : ULogger
-
-# fast build rule for target.
-ULogger/fast:
-	$(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build
-.PHONY : ULogger/fast
+uLogger/fast:
+	$(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build
+.PHONY : uLogger/fast
 
 # Help Target
 help:
@@ -296,9 +283,8 @@ help:
 	@echo "... Core"
 	@echo "... SDL3-shared"
 	@echo "... SDL3_test"
-	@echo "... TestLog"
-	@echo "... ULogger"
 	@echo "... glad"
+	@echo "... uLogger"
 .PHONY : help
 
 

@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/uLog/src/ULogger//CMakeFiles/progress.marks"
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/ULogger/all
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/vendor/uLog/src/uLogger//CMakeFiles/progress.marks"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/uLogger/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/ULogger/clean
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/uLogger/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,12 +148,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/ULogger/preinstall
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/uLogger/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/ULogger/preinstall
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/uLogger/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -162,186 +162,186 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/rule:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/rule
-.PHONY : vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/rule
+vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/rule:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/rule
+.PHONY : vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/rule
 
 # Convenience name for target.
-ULogger: vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/rule
-.PHONY : ULogger
+uLogger: vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/rule
+.PHONY : uLogger
 
 # fast build rule for target.
-ULogger/fast:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build
-.PHONY : ULogger/fast
+uLogger/fast:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build
+.PHONY : uLogger/fast
 
-ULogger/Formatter/PatternFormatter.o: ULogger/Formatter/PatternFormatter.cpp.o
-.PHONY : ULogger/Formatter/PatternFormatter.o
-
-# target to build an object file
-ULogger/Formatter/PatternFormatter.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Formatter/PatternFormatter.cpp.o
-.PHONY : ULogger/Formatter/PatternFormatter.cpp.o
-
-ULogger/Formatter/PatternFormatter.i: ULogger/Formatter/PatternFormatter.cpp.i
-.PHONY : ULogger/Formatter/PatternFormatter.i
-
-# target to preprocess a source file
-ULogger/Formatter/PatternFormatter.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Formatter/PatternFormatter.cpp.i
-.PHONY : ULogger/Formatter/PatternFormatter.cpp.i
-
-ULogger/Formatter/PatternFormatter.s: ULogger/Formatter/PatternFormatter.cpp.s
-.PHONY : ULogger/Formatter/PatternFormatter.s
-
-# target to generate assembly for a file
-ULogger/Formatter/PatternFormatter.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Formatter/PatternFormatter.cpp.s
-.PHONY : ULogger/Formatter/PatternFormatter.cpp.s
-
-ULogger/Log.o: ULogger/Log.cpp.o
-.PHONY : ULogger/Log.o
+uLogger/Formatter/PatternFormatter.o: uLogger/Formatter/PatternFormatter.cpp.o
+.PHONY : uLogger/Formatter/PatternFormatter.o
 
 # target to build an object file
-ULogger/Log.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Log.cpp.o
-.PHONY : ULogger/Log.cpp.o
+uLogger/Formatter/PatternFormatter.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Formatter/PatternFormatter.cpp.o
+.PHONY : uLogger/Formatter/PatternFormatter.cpp.o
 
-ULogger/Log.i: ULogger/Log.cpp.i
-.PHONY : ULogger/Log.i
+uLogger/Formatter/PatternFormatter.i: uLogger/Formatter/PatternFormatter.cpp.i
+.PHONY : uLogger/Formatter/PatternFormatter.i
 
 # target to preprocess a source file
-ULogger/Log.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Log.cpp.i
-.PHONY : ULogger/Log.cpp.i
+uLogger/Formatter/PatternFormatter.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Formatter/PatternFormatter.cpp.i
+.PHONY : uLogger/Formatter/PatternFormatter.cpp.i
 
-ULogger/Log.s: ULogger/Log.cpp.s
-.PHONY : ULogger/Log.s
+uLogger/Formatter/PatternFormatter.s: uLogger/Formatter/PatternFormatter.cpp.s
+.PHONY : uLogger/Formatter/PatternFormatter.s
 
 # target to generate assembly for a file
-ULogger/Log.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Log.cpp.s
-.PHONY : ULogger/Log.cpp.s
+uLogger/Formatter/PatternFormatter.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Formatter/PatternFormatter.cpp.s
+.PHONY : uLogger/Formatter/PatternFormatter.cpp.s
 
-ULogger/LogMsg.o: ULogger/LogMsg.cpp.o
-.PHONY : ULogger/LogMsg.o
+uLogger/Log.o: uLogger/Log.cpp.o
+.PHONY : uLogger/Log.o
 
 # target to build an object file
-ULogger/LogMsg.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/LogMsg.cpp.o
-.PHONY : ULogger/LogMsg.cpp.o
+uLogger/Log.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Log.cpp.o
+.PHONY : uLogger/Log.cpp.o
 
-ULogger/LogMsg.i: ULogger/LogMsg.cpp.i
-.PHONY : ULogger/LogMsg.i
+uLogger/Log.i: uLogger/Log.cpp.i
+.PHONY : uLogger/Log.i
 
 # target to preprocess a source file
-ULogger/LogMsg.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/LogMsg.cpp.i
-.PHONY : ULogger/LogMsg.cpp.i
+uLogger/Log.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Log.cpp.i
+.PHONY : uLogger/Log.cpp.i
 
-ULogger/LogMsg.s: ULogger/LogMsg.cpp.s
-.PHONY : ULogger/LogMsg.s
+uLogger/Log.s: uLogger/Log.cpp.s
+.PHONY : uLogger/Log.s
 
 # target to generate assembly for a file
-ULogger/LogMsg.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/LogMsg.cpp.s
-.PHONY : ULogger/LogMsg.cpp.s
+uLogger/Log.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Log.cpp.s
+.PHONY : uLogger/Log.cpp.s
 
-ULogger/Logger.o: ULogger/Logger.cpp.o
-.PHONY : ULogger/Logger.o
+uLogger/LogMsg.o: uLogger/LogMsg.cpp.o
+.PHONY : uLogger/LogMsg.o
 
 # target to build an object file
-ULogger/Logger.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Logger.cpp.o
-.PHONY : ULogger/Logger.cpp.o
+uLogger/LogMsg.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/LogMsg.cpp.o
+.PHONY : uLogger/LogMsg.cpp.o
 
-ULogger/Logger.i: ULogger/Logger.cpp.i
-.PHONY : ULogger/Logger.i
+uLogger/LogMsg.i: uLogger/LogMsg.cpp.i
+.PHONY : uLogger/LogMsg.i
 
 # target to preprocess a source file
-ULogger/Logger.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Logger.cpp.i
-.PHONY : ULogger/Logger.cpp.i
+uLogger/LogMsg.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/LogMsg.cpp.i
+.PHONY : uLogger/LogMsg.cpp.i
 
-ULogger/Logger.s: ULogger/Logger.cpp.s
-.PHONY : ULogger/Logger.s
+uLogger/LogMsg.s: uLogger/LogMsg.cpp.s
+.PHONY : uLogger/LogMsg.s
 
 # target to generate assembly for a file
-ULogger/Logger.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Logger.cpp.s
-.PHONY : ULogger/Logger.cpp.s
+uLogger/LogMsg.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/LogMsg.cpp.s
+.PHONY : uLogger/LogMsg.cpp.s
 
-ULogger/Sinks/Sinks.o: ULogger/Sinks/Sinks.cpp.o
-.PHONY : ULogger/Sinks/Sinks.o
+uLogger/Logger.o: uLogger/Logger.cpp.o
+.PHONY : uLogger/Logger.o
 
 # target to build an object file
-ULogger/Sinks/Sinks.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/Sinks.cpp.o
-.PHONY : ULogger/Sinks/Sinks.cpp.o
+uLogger/Logger.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Logger.cpp.o
+.PHONY : uLogger/Logger.cpp.o
 
-ULogger/Sinks/Sinks.i: ULogger/Sinks/Sinks.cpp.i
-.PHONY : ULogger/Sinks/Sinks.i
+uLogger/Logger.i: uLogger/Logger.cpp.i
+.PHONY : uLogger/Logger.i
 
 # target to preprocess a source file
-ULogger/Sinks/Sinks.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/Sinks.cpp.i
-.PHONY : ULogger/Sinks/Sinks.cpp.i
+uLogger/Logger.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Logger.cpp.i
+.PHONY : uLogger/Logger.cpp.i
 
-ULogger/Sinks/Sinks.s: ULogger/Sinks/Sinks.cpp.s
-.PHONY : ULogger/Sinks/Sinks.s
+uLogger/Logger.s: uLogger/Logger.cpp.s
+.PHONY : uLogger/Logger.s
 
 # target to generate assembly for a file
-ULogger/Sinks/Sinks.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/Sinks.cpp.s
-.PHONY : ULogger/Sinks/Sinks.cpp.s
+uLogger/Logger.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Logger.cpp.s
+.PHONY : uLogger/Logger.cpp.s
 
-ULogger/Sinks/StdoutSink.o: ULogger/Sinks/StdoutSink.cpp.o
-.PHONY : ULogger/Sinks/StdoutSink.o
+uLogger/Sinks/Sinks.o: uLogger/Sinks/Sinks.cpp.o
+.PHONY : uLogger/Sinks/Sinks.o
 
 # target to build an object file
-ULogger/Sinks/StdoutSink.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/StdoutSink.cpp.o
-.PHONY : ULogger/Sinks/StdoutSink.cpp.o
+uLogger/Sinks/Sinks.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Sinks/Sinks.cpp.o
+.PHONY : uLogger/Sinks/Sinks.cpp.o
 
-ULogger/Sinks/StdoutSink.i: ULogger/Sinks/StdoutSink.cpp.i
-.PHONY : ULogger/Sinks/StdoutSink.i
+uLogger/Sinks/Sinks.i: uLogger/Sinks/Sinks.cpp.i
+.PHONY : uLogger/Sinks/Sinks.i
 
 # target to preprocess a source file
-ULogger/Sinks/StdoutSink.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/StdoutSink.cpp.i
-.PHONY : ULogger/Sinks/StdoutSink.cpp.i
+uLogger/Sinks/Sinks.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Sinks/Sinks.cpp.i
+.PHONY : uLogger/Sinks/Sinks.cpp.i
 
-ULogger/Sinks/StdoutSink.s: ULogger/Sinks/StdoutSink.cpp.s
-.PHONY : ULogger/Sinks/StdoutSink.s
+uLogger/Sinks/Sinks.s: uLogger/Sinks/Sinks.cpp.s
+.PHONY : uLogger/Sinks/Sinks.s
 
 # target to generate assembly for a file
-ULogger/Sinks/StdoutSink.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/StdoutSink.cpp.s
-.PHONY : ULogger/Sinks/StdoutSink.cpp.s
+uLogger/Sinks/Sinks.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Sinks/Sinks.cpp.s
+.PHONY : uLogger/Sinks/Sinks.cpp.s
 
-ULogger/os.o: ULogger/os.cpp.o
-.PHONY : ULogger/os.o
+uLogger/Sinks/StdoutSink.o: uLogger/Sinks/StdoutSink.cpp.o
+.PHONY : uLogger/Sinks/StdoutSink.o
 
 # target to build an object file
-ULogger/os.cpp.o:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/os.cpp.o
-.PHONY : ULogger/os.cpp.o
+uLogger/Sinks/StdoutSink.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Sinks/StdoutSink.cpp.o
+.PHONY : uLogger/Sinks/StdoutSink.cpp.o
 
-ULogger/os.i: ULogger/os.cpp.i
-.PHONY : ULogger/os.i
+uLogger/Sinks/StdoutSink.i: uLogger/Sinks/StdoutSink.cpp.i
+.PHONY : uLogger/Sinks/StdoutSink.i
 
 # target to preprocess a source file
-ULogger/os.cpp.i:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/os.cpp.i
-.PHONY : ULogger/os.cpp.i
+uLogger/Sinks/StdoutSink.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Sinks/StdoutSink.cpp.i
+.PHONY : uLogger/Sinks/StdoutSink.cpp.i
 
-ULogger/os.s: ULogger/os.cpp.s
-.PHONY : ULogger/os.s
+uLogger/Sinks/StdoutSink.s: uLogger/Sinks/StdoutSink.cpp.s
+.PHONY : uLogger/Sinks/StdoutSink.s
 
 # target to generate assembly for a file
-ULogger/os.cpp.s:
-	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/build.make vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/os.cpp.s
-.PHONY : ULogger/os.cpp.s
+uLogger/Sinks/StdoutSink.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Sinks/StdoutSink.cpp.s
+.PHONY : uLogger/Sinks/StdoutSink.cpp.s
+
+uLogger/os.o: uLogger/os.cpp.o
+.PHONY : uLogger/os.o
+
+# target to build an object file
+uLogger/os.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/os.cpp.o
+.PHONY : uLogger/os.cpp.o
+
+uLogger/os.i: uLogger/os.cpp.i
+.PHONY : uLogger/os.i
+
+# target to preprocess a source file
+uLogger/os.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/os.cpp.i
+.PHONY : uLogger/os.cpp.i
+
+uLogger/os.s: uLogger/os.cpp.s
+.PHONY : uLogger/os.s
+
+# target to generate assembly for a file
+uLogger/os.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/build.make vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/os.cpp.s
+.PHONY : uLogger/os.cpp.s
 
 # Help Target
 help:
@@ -355,28 +355,28 @@ help:
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
-	@echo "... ULogger"
-	@echo "... ULogger/Formatter/PatternFormatter.o"
-	@echo "... ULogger/Formatter/PatternFormatter.i"
-	@echo "... ULogger/Formatter/PatternFormatter.s"
-	@echo "... ULogger/Log.o"
-	@echo "... ULogger/Log.i"
-	@echo "... ULogger/Log.s"
-	@echo "... ULogger/LogMsg.o"
-	@echo "... ULogger/LogMsg.i"
-	@echo "... ULogger/LogMsg.s"
-	@echo "... ULogger/Logger.o"
-	@echo "... ULogger/Logger.i"
-	@echo "... ULogger/Logger.s"
-	@echo "... ULogger/Sinks/Sinks.o"
-	@echo "... ULogger/Sinks/Sinks.i"
-	@echo "... ULogger/Sinks/Sinks.s"
-	@echo "... ULogger/Sinks/StdoutSink.o"
-	@echo "... ULogger/Sinks/StdoutSink.i"
-	@echo "... ULogger/Sinks/StdoutSink.s"
-	@echo "... ULogger/os.o"
-	@echo "... ULogger/os.i"
-	@echo "... ULogger/os.s"
+	@echo "... uLogger"
+	@echo "... uLogger/Formatter/PatternFormatter.o"
+	@echo "... uLogger/Formatter/PatternFormatter.i"
+	@echo "... uLogger/Formatter/PatternFormatter.s"
+	@echo "... uLogger/Log.o"
+	@echo "... uLogger/Log.i"
+	@echo "... uLogger/Log.s"
+	@echo "... uLogger/LogMsg.o"
+	@echo "... uLogger/LogMsg.i"
+	@echo "... uLogger/LogMsg.s"
+	@echo "... uLogger/Logger.o"
+	@echo "... uLogger/Logger.i"
+	@echo "... uLogger/Logger.s"
+	@echo "... uLogger/Sinks/Sinks.o"
+	@echo "... uLogger/Sinks/Sinks.i"
+	@echo "... uLogger/Sinks/Sinks.s"
+	@echo "... uLogger/Sinks/StdoutSink.o"
+	@echo "... uLogger/Sinks/StdoutSink.i"
+	@echo "... uLogger/Sinks/StdoutSink.s"
+	@echo "... uLogger/os.o"
+	@echo "... uLogger/os.i"
+	@echo "... uLogger/os.s"
 .PHONY : help
 
 

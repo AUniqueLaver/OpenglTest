@@ -1,7 +1,7 @@
 #pragma once
 
-#include "ULogger/LogMsg.hpp"
-#include "ULogger/Common.hpp"
+#include "uLogger/LogMsg.hpp"
+#include "uLogger/Common.hpp"
 
 namespace uLog 
 {

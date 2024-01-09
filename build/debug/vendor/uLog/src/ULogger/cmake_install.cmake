@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/src/ULogger
+# Install script for directory: /Users/alexchan_1/Project Files/C++/C++ projects/3test/vendor/uLog/src/uLogger
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

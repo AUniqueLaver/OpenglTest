@@ -1,6 +1,6 @@
 #include "Scene.hpp"
+#include "Core/Log.hpp"
 
-#include <iostream>
 #include <fstream>
 #include <sstream>
 
@@ -75,8 +75,7 @@ void Scene::compileShaderProg()
   std::ifstream vertFile("Assets/basic_vert.glsl");
        if(!vertFile)
          {
-             std::cerr << "Vertex shader file not found!" << std::endl;
-               exit(1);
+             LOG_FATAL("Vertex shader file not found!");
          }
 
    std::stringstream vertCode;
@@ -87,8 +86,7 @@ void Scene::compileShaderProg()
       GLuint vertShader = glCreateShader(GL_VERTEX_SHADER);
         if(vertShader == 0)
          {
-            std::cerr << "Error creating vertex shader" << std::endl;
-             exit(1);
+            LOG_FATAL("Error creating vertex shader");
          }
 
   const GLchar* vertCodeArray[] = { vertCodeStr.c_str() };
@@ -99,16 +97,13 @@ void Scene::compileShaderProg()
         glGetShaderiv(vertShader, GL_COMPILE_STATUS, &vertResult);
          if(vertResult == GL_FALSE)
           {
-    std::cerr << "Error compiling vertex shader" << std::endl
-              << getShaderInfo(vertShader) << std::endl;
-             exit(1);
+              LOG_FATAL("Error compiling vertex shader " + getShaderInfo(vertShader));
           }
 
       std::ifstream fragFile("Assets/basic_frag.glsl");
        if(!fragFile)
          {
-             std::cerr << "Fragment shader file not found!" << std::endl;
-               exit(1);
+             LOG_FATAL("Fragment shader file not found!");
          }
          
          std::stringstream fragCode;
@@ -119,8 +114,7 @@ void Scene::compileShaderProg()
         GLuint fragShader = glCreateShader(GL_FRAGMENT_SHADER);
         if(vertShader == 0)
          {
-            std::cerr << "Error creating fragment shader" << std::endl;
-             exit(1);
+             LOG_FATAL("Error creating fragment shader");
          }
 
     const GLchar* fragCodeArray[] { fragCodeStr.c_str() };
@@ -131,9 +125,7 @@ void Scene::compileShaderProg()
      glGetShaderiv(fragShader, GL_COMPILE_STATUS, &fragResult);
          if(fragResult == GL_FALSE)
           {
-    std::cerr << "Error compiling fragment shader" << std::endl
-              <<  getProgInfo(fragShader) << std::endl;
-                exit(1);
+             LOG_FATAL("Error compiling fragment shader " + getProgInfo(fragShader));
           }
 
      linkShader(vertShader, fragShader);
@@ -143,8 +135,7 @@ void Scene::linkShader(GLint vert, GLint frag)
       programHandle = glCreateProgram();
        if(!programHandle)
         {
-          std::cerr << "Error creating program handle" << std::endl;
-           exit(1);
+          LOG_FATAL("Error creating program handle");
         }
 
        glAttachShader(programHandle, vert);
@@ -156,9 +147,7 @@ void Scene::linkShader(GLint vert, GLint frag)
         glGetShaderiv(programHandle, GL_LINK_STATUS, &status);
          if(status == GL_FALSE)
          {
-           std::cerr << "Error linking shaders!" << std::endl
-                      << getProgInfo(programHandle) << std::endl;
-             exit(1);
+         LOG_FATAL("Error linking shaders! " + getProgInfo(programHandle));
          }
 
            glDetachShader(programHandle, vert);
@@ -175,8 +164,7 @@ void Scene::loadShaderBin(GLuint format)
   programHandle = glCreateProgram();
    if(programHandle == 0)
     {
-       std::cerr << "Error creating program handle" << std::endl;
-          exit(1);
+         LOG_FATAL("Error creating program handle");
     }
 
         std::ifstream ifs("Assets/shdaerProgram.bin", std::ios::binary);
@@ -192,9 +180,7 @@ void Scene::loadShaderBin(GLuint format)
     glGetProgramiv(programHandle, GL_LINK_STATUS, &result);
      if(result == 0)
       {
-          std::cerr << "Error linking shader program" << std::endl
-                     << getProgInfo(programHandle) << std::endl;
-         exit(1);
+         LOG_FATAL("Error linking shader program " + getProgInfo(programHandle));
       }
    
    glUseProgram(programHandle);
@@ -215,16 +201,17 @@ void Scene::writeShaderBin()
 glGetProgramBinary(programHandle, length , NULL, &format, buffer.data());
       std::string fname("Assets/shaderProg.bin");
 
-          std::cout << "Writing to: " << fname << ", with binary format: "
-                      << format << std::endl;
+       //Todo: Add GLint to string
+    
+           // LOG_INFO("Writing to: " + fname + ", with binary format: " + format);
+            LOG_INFO("Writing to: " + fname + ", with binary format: ");
 
             std::ofstream ofs(fname.c_str(), std::ios::binary);
               ofs.write(reinterpret_cast<char*>(buffer.data()), length);
                ofs.close();
         }
     else
-    std::cerr << "No binary formats suppported by this driver, unable "
-               << "to wrtie shader binary" << std::endl;
+       LOG_ERROR("No binary formats suppported by this driver, unable to wrtie shader binary");
 }
 void Scene::loadSpirvShader()
 {
@@ -247,8 +234,7 @@ void Scene::loadSpirvShader()
     glGetShaderiv(vertShader, GL_COMPILE_STATUS, &status);
   if(status == GL_FALSE)
       {
-        std::cerr << "Error compiling vertex shader" << std::endl
-                   << getShaderInfo(vertShader) << std::endl;
+         LOG_ERROR("Error compiling vertex shader " + getShaderInfo(vertShader));
       }
 
       GLuint fragShader = glCreateShader(GL_FRAGMENT_SHADER);
@@ -268,15 +254,13 @@ void Scene::loadSpirvShader()
       glGetShaderiv(fragShader, GL_COMPILE_STATUS, &status);
         if(status == GL_FALSE)
             {
-              std::cerr << "Error compiling fragment shader" << std::endl
-                         << getShaderInfo(fragShader) << std::endl;
+               LOG_ERROR("Error compiling fragment shader " + getShaderInfo(fragShader));
             }
         
       programHandle = glCreateProgram();
         if(programHandle == 0)
           {
-       std::cerr << "Error creating program handle" << std::endl;
-          exit(1);
+             LOG_FATAL("Error creating program handle");
           }
 
       glAttachShader(programHandle, vertShader);
@@ -287,9 +271,7 @@ void Scene::loadSpirvShader()
         glGetShaderiv(programHandle, GL_LINK_STATUS, &status);
          if(status == GL_FALSE)
          {
-           std::cerr << "Error linking shaders!" << std::endl
-                      << getProgInfo(programHandle) << std::endl;
-             exit(1);
+              LOG_FATAL("Error linking shaders! " + getProgInfo(programHandle));
          }
    
        glUseProgram(programHandle);

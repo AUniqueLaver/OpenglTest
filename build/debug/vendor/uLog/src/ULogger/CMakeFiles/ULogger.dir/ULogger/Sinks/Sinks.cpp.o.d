@@ -1,8 +1,8 @@
-vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/Sinks.cpp.o: \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Sinks/Sinks.cpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Sinks/Sinks.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Common.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Details/NullMutex.hpp \
+vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Sinks/Sinks.cpp.o: \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Sinks/Sinks.cpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Sinks/Sinks.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/NullMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -679,4 +679,4 @@ vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Sinks/Sinks.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/LogMsg.hpp
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/LogMsg.hpp

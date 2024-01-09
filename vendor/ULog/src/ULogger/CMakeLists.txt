@@ -1,4 +1,4 @@
-set(NAME "ULogger")
+set(NAME "uLogger")
 
 file(GLOB CURRENT_DIR
      *.cpp
@@ -6,24 +6,24 @@ file(GLOB CURRENT_DIR
     )
 
 file(GLOB_RECURSE CORE
-    ULogger/*.cpp
-    ULogger/*.hpp
+    uLogger/*.cpp
+    uLogger/*.hpp
     )
 
 file(GLOB_RECURSE CORE_SINKS 
-    ULogger/Sinks/*.cpp
-    ULogger/Sinks/*.hpp
+    uLogger/Sinks/*.cpp
+    uLogger/Sinks/*.hpp
     )
 
 file(GLOB_RECURSE CORE_DETAILS
-    ULogger/Details/*.cpp
-    ULogger/Details/*.hpp
+    uLogger/Details/*.cpp
+    uLogger/Details/*.hpp
     )
 
 add_library(${NAME} SHARED
               ${CURRENT_DIR} ${CORE} ${CORE_SINKS} ${CORE_DETAILS}
            )
 
-target_link_libraries(${NAME} PRIVATE vendor)
+# target_link_libraries(${NAME} PRIVATE vendor)
 
 target_include_directories(${NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

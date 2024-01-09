@@ -2,9 +2,9 @@
 
 #include "Sinks.hpp"
 
-#include "ULogger/Formatter/PatternFormatter.hpp"
-#include "ULogger/Details/ConsoleMutex.hpp"
-#include "ULogger/Common.hpp"
+#include "uLogger/Formatter/PatternFormatter.hpp"
+#include "uLogger/Details/ConsoleMutex.hpp"
+#include "uLogger/Common.hpp"
 
 #include <cstdio>
 

@@ -833,6 +833,12 @@ src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_binary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/pointer_to_unary_function.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unary_negate.h \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Logger.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/NullMutex.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/LogMsg.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/BackTracer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \

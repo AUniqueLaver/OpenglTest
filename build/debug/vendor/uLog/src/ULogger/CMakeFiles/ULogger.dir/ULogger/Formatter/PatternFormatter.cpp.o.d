@@ -1,10 +1,10 @@
-vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Formatter/PatternFormatter.cpp.o: \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Formatter/PatternFormatter.cpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Formatter/PatternFormatter.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Formatter/Formatter.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/LogMsg.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Common.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Details/NullMutex.hpp \
+vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Formatter/PatternFormatter.cpp.o: \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Formatter/PatternFormatter.cpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Formatter/PatternFormatter.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Formatter/Formatter.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/LogMsg.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/NullMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -681,8 +681,8 @@ vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Formatter/PatternFormatte
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Details/FmtHelper.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/os.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/FmtHelper.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/os.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \

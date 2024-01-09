@@ -1,8 +1,8 @@
-vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Logger.cpp.o: \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Logger.cpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Logger.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Common.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Details/NullMutex.hpp \
+vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/Logger.cpp.o: \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Logger.cpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Logger.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/NullMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -679,8 +679,8 @@ vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Logger.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/LogMsg.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Details/BackTracer.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/LogMsg.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/BackTracer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \
@@ -736,4 +736,4 @@ vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/Logger.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Sinks/Sinks.hpp
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Sinks/Sinks.hpp

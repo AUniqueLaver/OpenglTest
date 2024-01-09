@@ -1,4 +1,4 @@
-#include "ULogger/Log.hpp"
+// #include "uLogger/Log.hpp"
 
 #include <fstream>
 #include <iostream>
@@ -14,12 +14,13 @@
 
 int main()
 {
-  
-   LOG_INFO("Log message info");
-   LOG_WARN("Log message [warn]");
-   LOG_ERROR("Log message [error]");
-   LOG_FATAL("Log message [fatal]");
-
-   LOG_TRACE("%s rea fd a2");
-   LOG_DEBUG("Log Doop doop 3");
+//Todo: Fix this later
+  // 
+  //  LOG_INFO("Log message info");
+  //  LOG_WARN("Log message [warn]");
+  //  LOG_ERROR("Log message [error]");
+  //  LOG_FATAL("Log message [fatal]");
+  //
+  //  LOG_TRACE("%s rea fd a2");
+  //  LOG_DEBUG("Log Doop doop 3");
 }

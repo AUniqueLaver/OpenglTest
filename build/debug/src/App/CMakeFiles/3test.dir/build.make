@@ -95,7 +95,7 @@ src/App/3test: src/App/CMakeFiles/3test.dir/build.make
 src/App/3test: src/Core/libCore.a
 src/App/3test: vendor/sdl3/libSDL3.1.0.0.dylib
 src/App/3test: vendor/glad/libglad.a
-src/App/3test: vendor/uLog/src/ULogger/libULogger.dylib
+src/App/3test: vendor/uLog/src/uLogger/libuLogger.dylib
 src/App/3test: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/src/dynapi/SDL_dynapi.sym
 src/App/3test: src/App/CMakeFiles/3test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable 3test"

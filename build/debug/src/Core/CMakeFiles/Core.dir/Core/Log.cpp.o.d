@@ -1,9 +1,9 @@
 src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o: \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.cpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Logger.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Common.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Details/NullMutex.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Logger.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/NullMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \
@@ -680,8 +680,8 @@ src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ios/fpos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__string/extern_template_lists.h \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/LogMsg.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/BackTracer.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/LogMsg.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/BackTracer.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__locale \
@@ -737,10 +737,10 @@ src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Sinks/StdoutSink.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Sinks/Sinks.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Formatter/PatternFormatter.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Formatter/Formatter.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Details/FmtHelper.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/os.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Details/ConsoleMutex.hpp
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Sinks/StdoutSink.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Sinks/Sinks.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Formatter/PatternFormatter.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Formatter/Formatter.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/FmtHelper.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/os.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/ConsoleMutex.hpp

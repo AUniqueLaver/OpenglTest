@@ -1,8 +1,8 @@
-vendor/uLog/src/ULogger/CMakeFiles/ULogger.dir/ULogger/os.cpp.o: \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/os.cpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/os.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Common.hpp \
-  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/ULogger/ULogger/Details/NullMutex.hpp \
+vendor/uLog/src/uLogger/CMakeFiles/uLogger.dir/uLogger/os.cpp.o: \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/os.cpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/os.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Common.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/uLog/src/uLogger/uLogger/Details/NullMutex.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/atomic \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__config \

@@ -1,8 +1,7 @@
 #pragma once
 
 #include "Window/Window.hpp"
-
-#include <iostream>
+#include "Core/Log.hpp"
 
 class Runner
 {
@@ -12,7 +11,7 @@ class Runner
       const unsigned int init_flags{SDL_INIT_EVENTS | SDL_INIT_VIDEO};
      if (SDL_Init(init_flags) != 0)
           {
-        std::cerr << "Failed to init sdl" << std::endl;
+            LOG_FATAL("Failed to initialize SDL");
           }
 
 

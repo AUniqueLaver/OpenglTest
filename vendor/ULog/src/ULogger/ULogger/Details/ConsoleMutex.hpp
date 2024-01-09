@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ULogger/Details/NullMutex.hpp"
+#include "uLogger/Details/NullMutex.hpp"
 
 #include <mutex>
 
