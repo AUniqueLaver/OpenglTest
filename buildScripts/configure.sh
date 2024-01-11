@@ -60,13 +60,6 @@ setConfigVar()
 
     esac
 
-       # inFunc="in"
-       #  for ifunc in $inFunc; do
-       #      if [ "x${name}" =  "xNO_OPTION' ]; then
-       #            echo "${name}"
-       #         break;
-       #     fi 
-
       found=n
        for varString in $cfg; do
          extractCMakeConfig $(echo "${varString}" | tr '|' ' ')

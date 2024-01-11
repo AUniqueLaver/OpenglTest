@@ -1,3 +1,3 @@
 #! /bin/bash
 
-cd ../build/debug/src/App  ; ./3test
+cd ../build/debug/src/App  ; ./3test 
