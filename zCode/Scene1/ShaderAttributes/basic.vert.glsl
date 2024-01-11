@@ -5,8 +5,10 @@ layout (location=1) in vec3 vertexColor;
 
 layout (location=0) out vec3 vColor;
 
+uniform mat4 gRotationMatrix;
+
 void main()
 {
      vColor = vertexColor;
-     gl_Position = vec4(vertexPosition, 1.0);
+     gl_Position = gRotationMatrix * vec4(vertexPosition, 1.0);
 }

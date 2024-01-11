@@ -69,10 +69,24 @@ include src/Core/CMakeFiles/Core.dir/progress.make
 # Include the compile flags for this target's objects.
 include src/Core/CMakeFiles/Core.dir/flags.make
 
+src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o: src/Core/CMakeFiles/Core.dir/flags.make
+src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/GLShaderProg.cpp
+src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o: src/Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o -MF CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o.d -o CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o -c "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/GLShaderProg.cpp"
+
+src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Render/GLShaderProg.cpp.i"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/GLShaderProg.cpp" > CMakeFiles/Core.dir/Render/GLShaderProg.cpp.i
+
+src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Render/GLShaderProg.cpp.s"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/GLShaderProg.cpp" -o CMakeFiles/Core.dir/Render/GLShaderProg.cpp.s
+
 src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o: src/Core/CMakeFiles/Core.dir/flags.make
 src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Scene.cpp
 src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o: src/Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o"
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o -MF CMakeFiles/Core.dir/Render/Scene.cpp.o.d -o CMakeFiles/Core.dir/Render/Scene.cpp.o -c "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/Scene.cpp"
 
 src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.i: cmake_force
@@ -83,10 +97,52 @@ src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Render/Scene.cpp.s"
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/Scene.cpp" -o CMakeFiles/Core.dir/Render/Scene.cpp.s
 
+src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.o: src/Core/CMakeFiles/Core.dir/flags.make
+src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.o: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Torus.cpp
+src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.o: src/Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.o"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.o -MF CMakeFiles/Core.dir/Render/Torus.cpp.o.d -o CMakeFiles/Core.dir/Render/Torus.cpp.o -c "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/Torus.cpp"
+
+src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Render/Torus.cpp.i"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/Torus.cpp" > CMakeFiles/Core.dir/Render/Torus.cpp.i
+
+src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Render/Torus.cpp.s"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/Torus.cpp" -o CMakeFiles/Core.dir/Render/Torus.cpp.s
+
+src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.o: src/Core/CMakeFiles/Core.dir/flags.make
+src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.o: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/TorusScene.cpp
+src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.o: src/Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.o"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.o -MF CMakeFiles/Core.dir/Render/TorusScene.cpp.o.d -o CMakeFiles/Core.dir/Render/TorusScene.cpp.o -c "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/TorusScene.cpp"
+
+src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Render/TorusScene.cpp.i"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/TorusScene.cpp" > CMakeFiles/Core.dir/Render/TorusScene.cpp.i
+
+src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Render/TorusScene.cpp.s"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/TorusScene.cpp" -o CMakeFiles/Core.dir/Render/TorusScene.cpp.s
+
+src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o: src/Core/CMakeFiles/Core.dir/flags.make
+src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/TriangleMesh.cpp
+src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o: src/Core/CMakeFiles/Core.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o -MF CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o.d -o CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o -c "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/TriangleMesh.cpp"
+
+src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Core.dir/Render/TriangleMesh.cpp.i"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/TriangleMesh.cpp" > CMakeFiles/Core.dir/Render/TriangleMesh.cpp.i
+
+src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Core.dir/Render/TriangleMesh.cpp.s"
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Render/TriangleMesh.cpp" -o CMakeFiles/Core.dir/Render/TriangleMesh.cpp.s
+
 src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o: src/Core/CMakeFiles/Core.dir/flags.make
 src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Window/Window.cpp
 src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o: src/Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o"
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o -MF CMakeFiles/Core.dir/Window/Window.cpp.o.d -o CMakeFiles/Core.dir/Window/Window.cpp.o -c "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Window/Window.cpp"
 
 src/Core/CMakeFiles/Core.dir/Window/Window.cpp.i: cmake_force
@@ -100,7 +156,7 @@ src/Core/CMakeFiles/Core.dir/Window/Window.cpp.s: cmake_force
 src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o: src/Core/CMakeFiles/Core.dir/flags.make
 src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.cpp
 src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o: src/Core/CMakeFiles/Core.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o"
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o -MF CMakeFiles/Core.dir/Core/Log.cpp.o.d -o CMakeFiles/Core.dir/Core/Log.cpp.o -c "/Users/alexchan_1/Project Files/C++/C++ projects/3test/src/Core/Core/Log.cpp"
 
 src/Core/CMakeFiles/Core.dir/Core/Log.cpp.i: cmake_force
@@ -113,20 +169,28 @@ src/Core/CMakeFiles/Core.dir/Core/Log.cpp.s: cmake_force
 
 # Object files for target Core
 Core_OBJECTS = \
+"CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o" \
 "CMakeFiles/Core.dir/Render/Scene.cpp.o" \
+"CMakeFiles/Core.dir/Render/Torus.cpp.o" \
+"CMakeFiles/Core.dir/Render/TorusScene.cpp.o" \
+"CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o" \
 "CMakeFiles/Core.dir/Window/Window.cpp.o" \
 "CMakeFiles/Core.dir/Core/Log.cpp.o"
 
 # External object files for target Core
 Core_EXTERNAL_OBJECTS =
 
+src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o
 src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.o
+src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.o
+src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.o
+src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o
 src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/Window/Window.cpp.o
 src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/Core/Log.cpp.o
 src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/build.make
 src/Core/libCore.a: /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/src/dynapi/SDL_dynapi.sym
 src/Core/libCore.a: src/Core/CMakeFiles/Core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libCore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libCore.a"
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && $(CMAKE_COMMAND) -P CMakeFiles/Core.dir/cmake_clean_target.cmake
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug/src/Core" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Core.dir/link.txt --verbose=$(VERBOSE)
 

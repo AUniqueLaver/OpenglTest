@@ -435,6 +435,7 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__threading_support \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_const.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_cv.h \
@@ -601,7 +602,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/fstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/functional \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/future \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/initializer_list \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iomanip \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios \
@@ -613,6 +613,7 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex \
@@ -621,6 +622,7 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/optional \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ostream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ratio \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stddef.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdexcept \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/stdint.h \
@@ -631,7 +633,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string_view \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/system_error \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/thread \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/tuple \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/typeinfo \
@@ -774,10 +775,16 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Common.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Core/Log.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Extra/SceneInterface.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Extra/SceneRunner.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Drawable.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/GLShaderProg.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Scene.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Torus.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/TorusScene.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/TriangleMesh.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Window/Window.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glad/include/KHR/khrplatform.h \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glad/include/glad/glad.h \
@@ -794,6 +801,7 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/detail/type_vec2.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/detail/type_vec3.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/detail/type_vec4.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_constants.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_int_sized.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_uint_sized.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int2.hpp \
@@ -802,6 +810,11 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_uint2.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_uint3.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_uint4.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/geometric.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/constants.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/matrix.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/trigonometric.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_clip_space.inl \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double2x2.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double2x2_precision.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double2x3.hpp \
@@ -838,6 +851,9 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_float4x3_precision.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_float4x4.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_float4x4_precision.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_projection.inl \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_transform.inl \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_constants.inl \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_bool2.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_bool2_precision.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_bool3.hpp \
@@ -913,6 +929,20 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/fwd.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/geometric.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/glm.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_clip_space.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_projection.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_transform.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_constants.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/geometric.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/mat4x4.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/matrix.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/trigonometric.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/vec2.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/vec3.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/vec4.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/constants.inl \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/matrix_transform.hpp \
+  /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/matrix_transform.inl \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/integer.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/mat2x2.hpp \
   /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/mat2x3.hpp \
@@ -1007,8 +1037,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_system.h:
 
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_surface.h:
-
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_shape.h:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_rwops.h:
@@ -1047,10 +1075,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_assert.h:
 
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/vec4.hpp:
-
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/vec2.hpp:
-
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/packing.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/mat4x3.hpp:
@@ -1060,6 +1084,20 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/mat2x4.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/mat2x2.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/matrix_transform.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/constants.inl:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/vec4.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/vec2.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_transform.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_projection.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_clip_space.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/glm.hpp:
 
@@ -1131,6 +1169,12 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_bool2_precision.hpp:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_constants.inl:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_transform.inl:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_projection.inl:
+
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_float4x3_precision.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_float4x3.hpp:
@@ -1167,23 +1211,19 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double2x3.hpp:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/constants.hpp:
+
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_uint4.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_uint3.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int3.hpp:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int2.hpp:
+
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_int_sized.hpp:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/voidify.h:
-
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_uint_sized.hpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
-
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/detail/type_vec3.hpp:
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_constants.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_float3x4_precision.hpp:
 
@@ -1206,6 +1246,10 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_scalar.h:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Window/Window.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/TriangleMesh.hpp:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/TorusScene.hpp:
 
 /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stddef.h:
 
@@ -1337,8 +1381,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdlib.h:
 
-/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int2.hpp:
-
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double3x2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/stdio.h:
@@ -1380,8 +1422,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/year_month.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/unordered_set:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/thread:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Scene.hpp:
 
@@ -1442,10 +1482,6 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/ios:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/initializer_list:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/future:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h:
 
@@ -1711,6 +1747,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__chrono/high_resolution_clock.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_aggregate.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_wctype_t.h:
@@ -1720,6 +1758,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_double4.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/has_virtual_destructor.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Common.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/has_unique_object_representation.h:
 
@@ -1793,6 +1833,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/size.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/enable_view.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/data.h:
@@ -1817,6 +1859,10 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_int8_t.h:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/detail/type_vec3.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__numeric/adjacent_difference.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__mutex_base:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_int3_sized.hpp:
@@ -1824,6 +1870,12 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/next.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/as_const.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/scalar_uint_sized.hpp:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/voidify.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/float.h:
 
@@ -1931,6 +1983,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/reverse_iterator.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/locale.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/ostream_iterator.h:
@@ -1993,6 +2047,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/perfect_forward.h:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Drawable.hpp:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/operations.h:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_platform_defines.h:
@@ -2040,6 +2096,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/utility:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_remove.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/GLShaderProg.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/path_iterator.h:
 
@@ -2173,6 +2231,8 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/mach/arm/_structs.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/boolean_testable.h:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_double2x2.hpp:
@@ -2184,6 +2244,10 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/vector_float2_precision.hpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_for_each.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_surface.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/src/Core/Render/Torus.hpp:
 
 /Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/sdl3/include/SDL3/SDL_init.h:
 
@@ -2595,11 +2659,15 @@ src/App/CMakeFiles/3test.dir/main.cpp.o: /Users/alexchan_1/Project\ Files/C++/C+
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__concepts/predicate.h:
 
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/gtc/matrix_transform.inl:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_unsigned.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__threading_support:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/push_heap.h:
+
+/Users/alexchan_1/Project\ Files/C++/C++\ projects/3test/vendor/glm/glm/ext/matrix_clip_space.inl:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/conditional.h:
 

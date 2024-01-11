@@ -45,6 +45,7 @@ class StdoutSinkBase : public Sinks
        }
       void setPattern(const std::string& pat) override
        {
+        std::string unued = pat;
       std::lock_guard<mutex_t> lock(m_mutex);
          m_formatter = std::make_unique<PatternFormatter>();
     //Todo: Fix this

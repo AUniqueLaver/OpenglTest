@@ -1,12 +1,13 @@
 #pragma once
 
 #include "Extra/SceneInterface.hpp"
+#include "Render/GLShaderProg.hpp"
 
 #include <glad/glad.h>
 
 #include <string>
 
-class Scene : public SceneI
+class Scene : public IScene
 {
       public:
          Scene();
@@ -16,16 +17,10 @@ class Scene : public SceneI
             virtual void initScene() override;
               virtual void resize(int w, int h) override;
       private:
-    void compileShaderProg();
-    void linkShader(GLint vert, GLint frag);
-    void loadShaderBin(GLuint format);
-     void writeShaderBin();
-    void loadSpirvShader();
-
-    std::string getShaderInfo(GLuint shader);
-    std::string getProgInfo(GLuint prog);
 
       private:
-    GLuint vaoHandle;
-    GLuint programHandle;
+     float m_angle;
+       GLuint m_vaoHandle;
+          ShaderProgOpenGL m_prog;
+        GLuint ebo;
 };

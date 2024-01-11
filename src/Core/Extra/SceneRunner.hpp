@@ -2,6 +2,7 @@
 
 #include "Window/Window.hpp"
 #include "Core/Log.hpp"
+#include "Common.hpp"
 
 class Runner
 {
@@ -33,7 +34,7 @@ class Runner
               SDL_Quit();
            }
 
-    void main_loop(std::unique_ptr<Window> swindow, std::unique_ptr<SceneI> scene)
+    void main_loop(std::unique_ptr<Window> swindow, std::unique_ptr<IScene> scene)
        {
       scene->setDiemensions(fbw, fbh);
         scene->initScene();
@@ -53,38 +54,83 @@ class Runner
                      switch (event.key.keysym.sym)
                       {
                     case SDLK_SPACE:
-                          std::cerr << "Space pressed" << std::endl;
-                            scene->setAnimate(false);
+                            scene->setAnimate(true);
+                        break;
+                    case SDLK_0:
+                          glPolygonMode(GL_FRONT_AND_BACK, GL_LINE);
+                        break;
+                    case SDLK_ESCAPE:
+                          debug = true;
+                           sceneRunning = false;
+                         break;
+                          default:
+                           break;
+                      }
+                        break;
+                    case SDL_EVENT_KEY_UP:
+                     switch (event.key.keysym.sym)
+                      {
+                    case SDLK_SPACE:
+                           scene->setAnimate(false);
+                        break;
+                    case SDLK_0:
+                          glPolygonMode(GL_FRONT_AND_BACK, GL_FILL);
                         break;
                     case SDLK_ESCAPE:
                           debug = true;
                            sceneRunning = false;
                         break;
-                    default:
-                     break;
+                          default:
+                           break;
                       }
-                        break;
-                    case SDL_EVENT_KEY_UP:
-                        break;
+                     break;
                     case SDL_EVENT_QUIT:
                        sceneRunning = false;
                         break;
-                      default:
-                        break;
+                  default:
+                    break;
                    }
                 }
               SDL_GL_SwapWindow(swindow->getWindow());
              }
             }
 
-    void run(std::unique_ptr<SceneI> scene)
+    void run(std::unique_ptr<IScene> scene)
        {
           main_loop(std::move(window), std::move(scene));
        }
        
-      public:
+ static std::string parseCLArgs(const std::map<std::string, 
+                    std::string>& aScene)
+     {
+       std::string strScene;
+        std::cin >> strScene;
+         auto it = aScene.find(strScene);
+          if(it == aScene.end())
+           {
+            LOG_ERROR("No scene under such name");
+             printf("Availible scenes: \n");
+              for(const auto& s : aScene)
+                printf(" %11s : %s\n", 
+                       s.first.c_str(),
+                       s.second.c_str());
+               exit(1);
+           }
+        return strScene;
+     }
 
     private:
+       // void printHelp(std::map<std::string,
+       //                         std::string>& aScene)
+       //   {
+       //     printf("Availible scenes: \n");
+       //      for(const auto& s : aScene)
+       //        printf(" %11s : %s\n", 
+       //               s.first.c_str(),
+       //               s.second.c_str());
+       //   }
+    private:
+
       std::unique_ptr<Window> window = nullptr;
 
           bool debug = false;

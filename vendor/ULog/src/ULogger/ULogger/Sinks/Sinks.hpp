@@ -21,7 +21,10 @@ class Sinks
 
        virtual void setLevel() {}
        Level::LogLevel level() { return Level::Trace; } 
-        bool shouldLog(Level::LogLevel level) { return true; } 
+bool shouldLog(Level::LogLevel level) 
+    {
+  if(level>Level::Trace) return true; return false; 
+    } 
      //IMPORTANT: Fix this later.
     private:
        Level_t m_level{Level::Trace};

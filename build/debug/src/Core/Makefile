@@ -213,6 +213,30 @@ Core/Log.cpp.s:
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Core/Log.cpp.s
 .PHONY : Core/Log.cpp.s
 
+Render/GLShaderProg.o: Render/GLShaderProg.cpp.o
+.PHONY : Render/GLShaderProg.o
+
+# target to build an object file
+Render/GLShaderProg.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o
+.PHONY : Render/GLShaderProg.cpp.o
+
+Render/GLShaderProg.i: Render/GLShaderProg.cpp.i
+.PHONY : Render/GLShaderProg.i
+
+# target to preprocess a source file
+Render/GLShaderProg.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.i
+.PHONY : Render/GLShaderProg.cpp.i
+
+Render/GLShaderProg.s: Render/GLShaderProg.cpp.s
+.PHONY : Render/GLShaderProg.s
+
+# target to generate assembly for a file
+Render/GLShaderProg.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/GLShaderProg.cpp.s
+.PHONY : Render/GLShaderProg.cpp.s
+
 Render/Scene.o: Render/Scene.cpp.o
 .PHONY : Render/Scene.o
 
@@ -236,6 +260,78 @@ Render/Scene.s: Render/Scene.cpp.s
 Render/Scene.cpp.s:
 	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/Scene.cpp.s
 .PHONY : Render/Scene.cpp.s
+
+Render/Torus.o: Render/Torus.cpp.o
+.PHONY : Render/Torus.o
+
+# target to build an object file
+Render/Torus.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.o
+.PHONY : Render/Torus.cpp.o
+
+Render/Torus.i: Render/Torus.cpp.i
+.PHONY : Render/Torus.i
+
+# target to preprocess a source file
+Render/Torus.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.i
+.PHONY : Render/Torus.cpp.i
+
+Render/Torus.s: Render/Torus.cpp.s
+.PHONY : Render/Torus.s
+
+# target to generate assembly for a file
+Render/Torus.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/Torus.cpp.s
+.PHONY : Render/Torus.cpp.s
+
+Render/TorusScene.o: Render/TorusScene.cpp.o
+.PHONY : Render/TorusScene.o
+
+# target to build an object file
+Render/TorusScene.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.o
+.PHONY : Render/TorusScene.cpp.o
+
+Render/TorusScene.i: Render/TorusScene.cpp.i
+.PHONY : Render/TorusScene.i
+
+# target to preprocess a source file
+Render/TorusScene.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.i
+.PHONY : Render/TorusScene.cpp.i
+
+Render/TorusScene.s: Render/TorusScene.cpp.s
+.PHONY : Render/TorusScene.s
+
+# target to generate assembly for a file
+Render/TorusScene.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/TorusScene.cpp.s
+.PHONY : Render/TorusScene.cpp.s
+
+Render/TriangleMesh.o: Render/TriangleMesh.cpp.o
+.PHONY : Render/TriangleMesh.o
+
+# target to build an object file
+Render/TriangleMesh.cpp.o:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o
+.PHONY : Render/TriangleMesh.cpp.o
+
+Render/TriangleMesh.i: Render/TriangleMesh.cpp.i
+.PHONY : Render/TriangleMesh.i
+
+# target to preprocess a source file
+Render/TriangleMesh.cpp.i:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.i
+.PHONY : Render/TriangleMesh.cpp.i
+
+Render/TriangleMesh.s: Render/TriangleMesh.cpp.s
+.PHONY : Render/TriangleMesh.s
+
+# target to generate assembly for a file
+Render/TriangleMesh.cpp.s:
+	cd "/Users/alexchan_1/Project Files/C++/C++ projects/3test/build/debug" && $(MAKE) $(MAKESILENT) -f src/Core/CMakeFiles/Core.dir/build.make src/Core/CMakeFiles/Core.dir/Render/TriangleMesh.cpp.s
+.PHONY : Render/TriangleMesh.cpp.s
 
 Window/Window.o: Window/Window.cpp.o
 .PHONY : Window/Window.o
@@ -278,9 +374,21 @@ help:
 	@echo "... Core/Log.o"
 	@echo "... Core/Log.i"
 	@echo "... Core/Log.s"
+	@echo "... Render/GLShaderProg.o"
+	@echo "... Render/GLShaderProg.i"
+	@echo "... Render/GLShaderProg.s"
 	@echo "... Render/Scene.o"
 	@echo "... Render/Scene.i"
 	@echo "... Render/Scene.s"
+	@echo "... Render/Torus.o"
+	@echo "... Render/Torus.i"
+	@echo "... Render/Torus.s"
+	@echo "... Render/TorusScene.o"
+	@echo "... Render/TorusScene.i"
+	@echo "... Render/TorusScene.s"
+	@echo "... Render/TriangleMesh.o"
+	@echo "... Render/TriangleMesh.i"
+	@echo "... Render/TriangleMesh.s"
 	@echo "... Window/Window.o"
 	@echo "... Window/Window.i"
 	@echo "... Window/Window.s"

@@ -25,19 +25,9 @@ file(GLOB_RECURSE WINDOW
     Window/*.hpp
     )
 
-file(GLOB_RECURSE CORE_SINKS 
-    Core/Sinks/*.cpp
-    Core/Sinks/*.hpp
-    )
-
-file(GLOB_RECURSE CORE_DETAILS
-    Core/Details/*.cpp
-    Core/Details/*.hpp
-    )
-
 add_library(${NAME} 
             ${CURRENT_DIR} ${RENDER} ${EXTRA} ${WINDOW}
-            ${CORE} ${CORE_SINKS} ${CORE_DETAILS}
+            ${CORE}
            )
 
 add_custom_target(Copies_Directory ALL
@@ -49,6 +39,6 @@ add_custom_target(Copies_Directory ALL
 
 add_dependencies(${PROJECT_NAME} Copies_Directory)
 
-target_link_libraries(${NAME} PUBLIC vendor)
+target_link_libraries(${NAME} PUBLIC vendor Project_Warnings)
 
 target_include_directories(${NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
