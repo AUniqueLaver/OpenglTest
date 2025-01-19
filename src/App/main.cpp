@@ -1,9 +1,7 @@
-#include "Render/Scene.hpp"
-#include "Render/TorusScene.hpp"
+
+#include "Render/Scenes/Scene1/Scene.hpp"
 #include "Extra/SceneRunner.hpp"
 #include "Core/Log.hpp"
-
-#include "glm/gtc/matrix_transform.hpp"
 
 #include <fstream>
 #include <iostream>
@@ -13,25 +11,11 @@
 #include <algorithm>
 #include <numeric>
 #include <utility>
+#include <limits>
 
 int main()
 {
-    std::map<std::string, std::string> AvailScenes = 
-  {
-      {"Scene1", "Basic scene -triangle"},
-      {"Torus", "Scene: Torus"},
-      {"Scene3", "scene three"}
-  };
+    Runner* runner = new Runner("Window");
 
-   // std::string renderScene = Runner::parseCLArgs(AvailScenes);
-
-  std::unique_ptr<IScene> scene;
-    // Runner runner(renderScene);
-     Runner runner("Default scene");
-      // if(renderScene == "Scene1") 
-      //   scene = std::make_unique<Scene>();
-      // else if(renderScene == "Torus") 
-        scene = std::make_unique<TorusScene>();
-
-       runner.run(std::move(scene));
+    runner->run(std::make_unique<Scene>());
 }

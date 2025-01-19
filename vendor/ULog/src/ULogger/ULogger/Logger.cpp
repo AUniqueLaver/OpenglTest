@@ -19,10 +19,10 @@ void Logger::log_it(const LogMsg& logMsg,
        {
            sink_it(logMsg);
        }
-      // if(trace_enabled)
-      //    {
+      if(trace_enabled)
+         {
       //       tracer.push_back(logMsg);
-      //    }
+         }
 }
 void Logger::sink_it(const LogMsg& logMsg)
 {

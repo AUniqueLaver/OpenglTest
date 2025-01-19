@@ -1,31 +1,52 @@
 #pragma once
 
 #include <glm/glm.hpp>
+#include <SDL3/SDL.h>
 
 class IScene
 {
-     public:
-        IScene() :  animating{false}, width{1280}, height{720} { }
-          virtual ~IScene() { }
+   public:
+    IScene()
+    : m_width{1280},
+      m_height{720},
+      m_animating{false}
+    {
 
-       virtual void update(float dt) = 0;
-        virtual void render() = 0; 
-          virtual void initScene() = 0;
+    }
+    virtual ~IScene()
+    {
 
-           void setDiemensions(int w, int h)
-            {
-                 width = w;
-                 height = h;
-            }
-              virtual void resize(int w, int h) = 0; 
+    }
 
-    bool isAnimating() const { return animating; }
-         void setAnimate(bool b) { animating = b; }
-     protected:
-       glm::mat4 m_model, m_view, m_proj;
-        
-         bool animating;
-     public:
-         int width;
-          int height;
+    virtual void update(float dt) = 0;
+    virtual void render() = 0; 
+    virtual void initScene() = 0;
+
+    void setDiemensions(int w, int h)
+    {
+    m_width = w;
+    m_height = h;
+    }
+    virtual void resize(int w, int h) = 0; 
+
+    virtual void move(SDL_Event& e, bool& running)
+    {
+
+    }
+
+    bool isAnimating() const
+    {
+    return m_animating;
+    }
+    void setAnimate(bool b)
+    {
+    m_animating = b;
+    }
+
+   public:
+    int m_width;
+    int m_height;
+
+    protected:
+     bool m_animating;
 };

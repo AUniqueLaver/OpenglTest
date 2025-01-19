@@ -45,8 +45,8 @@ class StdoutSinkBase : public Sinks
        }
       void setPattern(const std::string& pat) override
        {
-        std::string unued = pat;
-      std::lock_guard<mutex_t> lock(m_mutex);
+        unused = pat;
+        std::lock_guard<mutex_t> lock(m_mutex);
          m_formatter = std::make_unique<PatternFormatter>();
     //Todo: Fix this
        }
@@ -59,6 +59,8 @@ class StdoutSinkBase : public Sinks
      mutex_t& m_mutex;
      FILE* m_file;
       std::unique_ptr<Formatter> m_formatter;
+       
+       std::string unused;
    private:
      
 };

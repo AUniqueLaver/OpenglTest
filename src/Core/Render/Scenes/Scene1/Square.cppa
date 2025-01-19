@@ -1,0 +1,74 @@
+
+#include "Square.hpp"
+
+void init(Square& square)
+{
+      square.m_prog.compileShader("Assets/Shaders/basic.vert.glsl");
+        square.m_prog.compileShader("Assets/Shaders/basic.frag.glsl");
+         square.m_prog.linkShaders();
+          square.m_prog.use();
+
+       float vertices[] =
+        {
+             -0.5f, -0.5f, 0.0f,    1.0f, 0.0f, 0.0f,      //Bottom left
+              0.5f, -0.5f, 0.0f,    0.0f, 1.0f, 0.0f,      //Bottom right
+             -0.5f,  0.5f, 0.0f,    0.0f, 0.0f, 1.0f,      //Top left
+              0.5f,  0.5f, 0.0f,    1.0f, 0.0f, 0.0f       //Top right 
+       };
+   
+        unsigned int indices[] =
+         {
+              0, 1, 2,    //First triangle
+              1, 2, 3     //Second triangle
+         };
+
+    GLuint vboHandles[1];
+      glGenBuffers(1, vboHandles);
+       GLuint vertHandle = vboHandles[0];
+ 
+    glBindBuffer(GL_ARRAY_BUFFER, vertHandle);
+      glBufferData(GL_ARRAY_BUFFER,
+                   sizeof(vertices),
+                   vertices,
+                   GL_STATIC_DRAW);
+
+        glGenBuffers(1, &square.ebo);
+    glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, square.ebo);
+      glBufferData(GL_ELEMENT_ARRAY_BUFFER,
+                   sizeof(indices),
+                   indices,
+                   GL_STATIC_DRAW);
+
+       glGenVertexArrays(1, &square.m_vaoHandle);
+        glBindVertexArray(square.m_vaoHandle);
+
+              glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, square.ebo);
+
+      glEnableVertexAttribArray(0);
+        glEnableVertexAttribArray(1);
+     
+ glVertexAttribPointer(0,
+                       3,
+                       GL_FLOAT,
+                       GL_FALSE,
+                       6 * sizeof(float),
+                       NULL);
+      
+        glVertexAttribPointer(1,
+                              3,
+                              GL_FLOAT,
+                              GL_FALSE,
+                              6 * sizeof(float),
+                              (void*)(3 * sizeof(float)));
+   
+     glBindVertexArray(0);
+}
+
+void renderSquare(Square& square)
+{
+      glClear(GL_COLOR_BUFFER_BIT);
+       glBindVertexArray(square.m_vaoHandle);
+
+      glDrawElements(GL_TRIANGLES, 6, GL_UNSIGNED_INT, NULL);
+      glBindVertexArray(0);
+ }

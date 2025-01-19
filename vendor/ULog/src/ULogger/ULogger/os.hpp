@@ -19,6 +19,14 @@ namespace os
 
       Log_clock::time_point now() noexcept;
 
+std::tm localTime(const std::time_t& tt);
+
+std::tm localTime();
+
+std::tm gmTime(const time_t& tt);
+
+std::tm gmTime();
+
 }  //namepsace os
   
 }  //namespace uLog

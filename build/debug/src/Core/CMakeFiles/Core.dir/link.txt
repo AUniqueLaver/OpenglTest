@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libCore.a CMakeFiles/Core.dir/Render/GLShaderProg.cpp.o CMakeFiles/Core.dir/Render/Scene.cpp.o CMakeFiles/Core.dir/Render/Torus.cpp.o CMakeFiles/Core.dir/Render/TorusScene.cpp.o CMakeFiles/Core.dir/Render/TriangleMesh.cpp.o CMakeFiles/Core.dir/Window/Window.cpp.o CMakeFiles/Core.dir/Core/Log.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libCore.a

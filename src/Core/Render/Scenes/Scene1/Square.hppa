@@ -1,0 +1,17 @@
+#pragma once
+
+#include "Render/GLShaderProg.hpp"
+
+#include <glad/glad.h>
+
+struct Square
+{
+    public:
+     GLuint m_vaoHandle;
+     ShaderProgOpenGL m_prog;
+     GLuint ebo;
+     float* m_verticies;
+};
+
+void init(Square& square);
+void renderSquare(Square& square);

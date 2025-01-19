@@ -1,0 +1,49 @@
+#pragma once
+
+#include "Render/GLShaderProg.hpp"
+#include "Core/Log.hpp"
+#include "Render/GLSLProg.hpp"
+
+#include <SDL3/SDL.h>
+#include <glad/glad.h>
+
+#include <iostream>
+#include <fstream>
+#include <sstream>
+
+struct PlayerCamera
+{
+  public:
+   glm::vec3 m_cameraPos;
+   glm::vec3 m_cameraFront;
+   glm::vec3 m_cameraUp;
+};
+
+
+struct Triangle
+{
+    public:
+     GLuint m_vaoHandle;
+     GLuint m_tex;
+     GLSLProg m_prog;
+
+     PlayerCamera m_cam;
+     PlayerCamera m_cam1;
+     float m_cameraSpeed;
+     float m_yaw;
+     float m_pitch;
+
+     float m_fov;
+
+     bool m_drawLines;
+     int m_posLoc;
+
+     glm::mat4 m_proj;
+};
+
+float cameraSpeed(const Triangle& triangle);
+void setCameraSpeed(Triangle& triangle, float val);
+
+void init(Triangle& triangle);
+void renderTriangle(Triangle& triangle,
+           std::pair<int, int> winDim);

@@ -1,8 +1,7 @@
-function(uLog_project_warnings project_name)
-  option(WARNING_AS_ERRORS "Treat warnings as errors" TRUE)
-   if(WARNING_AS_ERRORS)
-    message(STATUS "Treating warnings as errors")
-   endif()
+
+
+# Use only warnings in debug
+function(set_project_warnings project_name)
 
    set(CLANG_WARNINGS
        -Wall
@@ -16,7 +15,7 @@ function(uLog_project_warnings project_name)
        -Wconversion
        -Wsign-conversion
        -Wnull-dereference
-       # -Wformat=2
+       -Wformat=2
        )
 
   if(WARNING_AS_ERRORS)

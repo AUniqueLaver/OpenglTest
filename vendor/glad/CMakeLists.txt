@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.27)
 project(Glad DESCRIPTION "Glad loader" LANGUAGES CXX)
 
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(LIBRARY "glad")
 
 set(SOURCES
@@ -10,6 +10,6 @@ set(SOURCES
     src/glad.c
    )
 
-add_library(${LIBRARY} ${SOURCES})
+add_library(${LIBRARY} STATIC ${SOURCES})
 
 target_include_directories(${LIBRARY} PUBLIC include/)

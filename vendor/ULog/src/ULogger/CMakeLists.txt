@@ -20,10 +20,14 @@ file(GLOB_RECURSE CORE_DETAILS
     uLogger/Details/*.hpp
     )
 
-add_library(${NAME} SHARED
-              ${CURRENT_DIR} ${CORE} ${CORE_SINKS} ${CORE_DETAILS}
+add_library(${NAME} STATIC
+            ${CURRENT_DIR} ${CORE} ${CORE_SINKS} ${CORE_DETAILS}
            )
 
-# target_link_libraries(${NAME} PRIVATE vendor)
+if(ENABLE_TEST_APP)
+target_link_libraries(${NAME} PUBLIC uLogVendors uLog_PWarnings)
+endif()
+
+target_link_libraries(${NAME} PUBLIC uLogVendors)
 
 target_include_directories(${NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})

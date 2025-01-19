@@ -3,7 +3,9 @@
 world space to camera space. So the matrix that transforms from object to camera space, we want the model matrix to apply first. Therefore
 the model matrix is multiplied on the right-hand side of the view matrix.
 
-*We can laod our shader in one of three ways:
+We can laod our shader in one of three ways:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 1) Compile and load our shader normally
 2) Load a binary pre-compiled shader program   (file: "shader/program.bin")
 3) Load a SPIR-V shade program  (file: "shader/vert.spv" and "shader/frag.spv")
@@ -43,9 +45,9 @@ of s and n:
 
       Ld(s . n)
 
-Ld is the intensity of the light source, and the vectors are assumed to be normalized.
+    Ld is the intensity of the light source, and the vectors are assumed to be normalized.
 
-The dot product of the two vectors is equal to the cosine of the angle between them.
+    The dot product of the two vectors is equal to the cosine of the angle between them.
 
 Some of the incoming light is absorbed before being reemitted. We can model
 this interaction by using a reflection coefficient (Kd), which represents the fraction
@@ -53,8 +55,32 @@ of the incoming light that is scattered. This is sometimes called diffuse reflec
 or the diffucse reflection coefficient. The diffuse reflectivity becomes a scaling factor,
 so the intensity of the outgoing light can be expressed as follows.
 
-  L = KdLd(s . n)
+   L = KdLd(s . n)
 
 Light intensities and material reflectivity coefficients are represented by three-component(RGB)
 vectors. Therefore, the equations should be treated as component wise operations, applied
 to each of the three components seperately.
+
+          //   std::map<std::string, std::string> AvailScenes = 
+          // {
+          //     {"Scene1", "Basic scene -triangle"},
+          //     {"Torus", "Scene: Torus"},
+          //     {"Triangle", "Scene: Triangle"},
+          //     {"Transforms", "Scene: Triangle"}
+          // };
+          //
+          //  std::string renderScene = Runner::parseCLArgs(AvailScenes, "Transforms");
+          //  // std::string renderScene = Runner::parseCLArgs(AvailScenes);
+          //
+          // std::unique_ptr<IScene> scene;
+          //   Runner runner(renderScene);
+          //     if(renderScene == "Scene1") 
+          //       scene = std::make_unique<Scene>();
+          //     else if(renderScene == "Torus") 
+          //       scene = std::make_unique<TorusScene>();
+          //     else if(renderScene == "Triangle") 
+          //       scene = std::make_unique<SceneTriangle>();
+          //     else if(renderScene == "Transforms") 
+          //       scene = std::make_unique<SceneTransforms>();
+          //
+          //      runner.run(std::move(scene));  
